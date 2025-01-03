@@ -1,6 +1,6 @@
 {
-  "name": "@tycoonsystems/tycoon-video",
-  "version": "0.5.54",
+  "name": "@tycoonsystems/tycoon-modules",
+  "version": "0.9.23",
   "scripts": {
     "dev": "next dev -p 3020",
     "https": "next dev --experimental-https",

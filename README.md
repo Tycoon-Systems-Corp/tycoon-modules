@@ -1,5 +1,5 @@
 # Start developing your Video Platform
-npm init @tycoonsystems/tycoon-video
+npm init @tycoonsystems/tycoon-modules
 
 # Documentation
 www.tycoon.systems/documentation
