@@ -1,6 +1,6 @@
 {
   "name": "@tycoonsystems/tycoon-modules",
-  "version": "0.9.26",
+  "version": "0.9.25",
   "scripts": {
     "dev": "next dev -p 3020",
     "https": "next dev --experimental-https",
@@ -64,5 +64,8 @@
   "bugs": {
     "url": "https://github.com/Tycoon-Systems-Corp/video-streaming-client/issues"
   },
-  "homepage": "https://github.com/Tycoon-Systems-Corp/video-streaming-client#readme"
+  "homepage": "https://github.com/Tycoon-Systems-Corp/video-streaming-client#readme",
+  "exports": {
+    "./": "./modules/"
+  }
 }
