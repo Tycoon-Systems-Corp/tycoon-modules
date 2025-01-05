@@ -17,6 +17,7 @@ const nextConfig = {
 
 		// Example: Add resolve alias for modules folder
 		config.resolve.alias['tycoon-modules'] = path.join(__dirname, 'modules/')
+		config.resolve.alias['@tycoonsystems/tycoon-modules'] = path.join(__dirname, 'modules/')
 		config.resolve.alias['/appServer'] = path.join(__dirname, 'appServer/')
 		config.resolve.alias['/app.config'] = path.join(__dirname, 'app.config.js')
 		config.resolve.alias['/customModules'] = path.join(__dirname, 'customModules')

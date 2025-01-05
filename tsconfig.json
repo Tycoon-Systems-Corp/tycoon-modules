@@ -10,6 +10,9 @@
       ],
       "tycoon-modules/*": [
         "modules/*"
+      ],
+      "@tycoonsystems/tycoon-modules/*": [
+        "modules/*"
       ]
     },
     "lib": [
@@ -17,6 +20,8 @@
       "dom.iterable",
       "esnext"
     ],
+    "types": ["node"], // Add 'eslint' if needed
+    "typeRoots": ["node_modules/@types"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,

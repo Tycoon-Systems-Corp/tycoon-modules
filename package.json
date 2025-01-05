@@ -1,6 +1,6 @@
 {
   "name": "@tycoonsystems/tycoon-modules",
-  "version": "0.9.28",
+  "version": "0.9.25",
   "scripts": {
     "dev": "next dev -p 3020",
     "https": "next dev --experimental-https",
@@ -41,7 +41,8 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^14.1.0"
+    "@next/bundle-analyzer": "^14.1.0",
+    "@types/eslint": "^9.6.1"
   },
   "description": "www.tv.tycoon.systems/documentation",
   "main": "app.config.js",
@@ -66,6 +67,10 @@
   },
   "homepage": "https://github.com/Tycoon-Systems-Corp/video-streaming-client#readme",
   "exports": {
+    ".": {
+      "import": "./modules",
+      "require": "./modules"
+    },
     "./package.json": "./package.json",
     "./": "./modules/"
   }
