@@ -9,10 +9,10 @@
         "modules/*"
       ],
       "tycoon-modules/*": [
-        "modules/*"
+        "./modules/*"
       ],
       "@tycoonsystems/tycoon-modules/*": [
-        "modules/*"
+        "./modules/*"
       ]
     },
     "lib": [
