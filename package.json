@@ -1,6 +1,6 @@
 {
   "name": "@tycoonsystems/tycoon-modules",
-  "version": "0.9.29",
+  "version": "0.9.30",
   "scripts": {
     "dev": "next dev -p 3020",
     "https": "next dev --experimental-https",
