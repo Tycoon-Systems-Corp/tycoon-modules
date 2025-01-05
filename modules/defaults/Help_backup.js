@@ -1,5 +1,5 @@
 import React from 'react'
-import { HelpClose, HelpSearch, HelpResult } from 'tycoon-modules/help'
+import { HelpClose, HelpSearch, HelpResult } from '@tycoonsystems/tycoon-modules/help'
 
 const Module = props => {
     return (

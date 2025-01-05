@@ -1,7 +1,7 @@
 const devIndex=[{lead:"Dropdown Menu",text:`You can change the contents of the Dropdown Menu under layout/DropMenu. If the file is not there start by running node init_app.js
         
-The easiest way to manipulate the order of the dropdown menu is using the JSX in this file.`,code:`import { Account, GoLive, Help, Feedback } from 'tycoon-modules/menu/parts'
-import { Username } from 'tycoon-modules/onboarding/signin'
+The easiest way to manipulate the order of the dropdown menu is using the JSX in this file.`,code:`import { Account, GoLive, Help, Feedback } from '@tycoonsystems/tycoon-modules/menu/parts'
+import { Username } from '@tycoonsystems/tycoon-modules/onboarding/signin'
 
         
 const Module = props => {

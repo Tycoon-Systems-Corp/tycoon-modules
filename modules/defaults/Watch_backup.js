@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
-import { Player, ChaptersContainer } from 'tycoon-modules/streaming/watch'
-import { Chat } from 'tycoon-modules/streaming/chat'
-import DonateButton from 'tycoon-modules/ecommerce/donate/DonateButton'
-import { CommentInternal } from 'tycoon-modules/comment'
-import { LoadComments } from 'tycoon-modules/comment/parts'
-import { selectThisText } from 'tycoon-modules/utility/utility/event'
+import { Player, ChaptersContainer } from '@tycoonsystems/tycoon-modules/streaming/watch'
+import { Chat } from '@tycoonsystems/tycoon-modules/streaming/chat'
+import DonateButton from '@tycoonsystems/tycoon-modules/ecommerce/donate/DonateButton'
+import { CommentInternal } from '@tycoonsystems/tycoon-modules/comment'
+import { LoadComments } from '@tycoonsystems/tycoon-modules/comment/parts'
+import { selectThisText } from '@tycoonsystems/tycoon-modules/utility/utility/event'
 
 const Module = props => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
-import WatchPageStyles from 'tycoon-modules/streaming/watch/WatchPage.module.scss'
-import { westernMoneyFormat } from 'tycoon-modules/utility/ecommerce'
-import { fireGlobalEvent } from 'tycoon-modules/utility/utility'
+import WatchPageStyles from '@tycoonsystems/tycoon-modules/streaming/watch/WatchPage.module.scss'
+import { westernMoneyFormat } from '@tycoonsystems/tycoon-modules/utility/ecommerce'
+import { fireGlobalEvent } from '@tycoonsystems/tycoon-modules/utility/utility'
 
 
 /**

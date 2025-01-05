@@ -1,7 +1,7 @@
 import React from 'react'
-import ChatStyles from 'tycoon-modules/streaming/chat/Chat.module.scss'
-import { Reaction } from 'tycoon-modules/streaming/chat'
-import { handleSqueezedInputFocus, handleSqueezedInputBlur } from 'tycoon-modules/streaming/chat/utility'
+import ChatStyles from '@tycoonsystems/tycoon-modules/streaming/chat/Chat.module.scss'
+import { Reaction } from '@tycoonsystems/tycoon-modules/streaming/chat'
+import { handleSqueezedInputFocus, handleSqueezedInputBlur } from '@tycoonsystems/tycoon-modules/streaming/chat/utility'
 
 const Module = props => {
     const promptDonate = props.promptDonate

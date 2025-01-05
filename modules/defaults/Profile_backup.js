@@ -1,6 +1,6 @@
 import React from 'react'
-import { AdminPanel, BeginStream, UsernameContainer, UserFeed, UserIcon, UserShop, Follow, Message } from 'tycoon-modules/profile'
-import { IndexHello } from 'tycoon-modules/presentation/hello/IndexHello'
+import { AdminPanel, BeginStream, UsernameContainer, UserFeed, UserIcon, UserShop, Follow, Message } from '@tycoonsystems/tycoon-modules/profile'
+import { IndexHello } from '@tycoonsystems/tycoon-modules/presentation/hello/IndexHello'
 
 const Module = props => {
     return (

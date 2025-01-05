@@ -1,5 +1,5 @@
 import React from 'react'
-import { CartCc, CartDisclaimer, CartItems, CartMessages, CartTotal, ItemsRemaining, ItemsTotal, PurchaseButton } from 'tycoon-modules/ecommerce/cart'
+import { CartCc, CartDisclaimer, CartItems, CartMessages, CartTotal, ItemsRemaining, ItemsTotal, PurchaseButton } from '@tycoonsystems/tycoon-modules/ecommerce/cart'
 
 const Module = props => {
     return (

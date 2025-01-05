@@ -1,5 +1,5 @@
 import React from 'react'
-import { Chat } from 'tycoon-modules/streaming/chat'
+import { Chat } from '@tycoonsystems/tycoon-modules/streaming/chat'
 
 const Module = props => {
     return (

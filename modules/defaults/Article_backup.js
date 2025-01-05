@@ -1,5 +1,5 @@
 import React from 'react'
-import { ArticleAuthor, ArticleDate, ArticleTitle, SingleArticle } from 'tycoon-modules/article'
+import { ArticleAuthor, ArticleDate, ArticleTitle, SingleArticle } from '@tycoonsystems/tycoon-modules/article'
 
 const Module = props => {
     return (

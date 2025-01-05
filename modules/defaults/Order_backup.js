@@ -1,8 +1,8 @@
 import React from 'react'
-import { selectThisText } from 'tycoon-modules/utility/utility/event'
-import { resolveCurrentStyle, resolveCurrentOption, resolveRegionBasedPrice, resolveMoneyFormat, westernMoneyFormat } from 'tycoon-modules/utility/ecommerce'
+import { selectThisText } from '@tycoonsystems/tycoon-modules/utility/utility/event'
+import { resolveCurrentStyle, resolveCurrentOption, resolveRegionBasedPrice, resolveMoneyFormat, westernMoneyFormat } from '@tycoonsystems/tycoon-modules/utility/ecommerce'
 import Inventory from '@mui/icons-material/Inventory'
-import { OrderTitle, OrderItemPrice, OrderImage, OrderCard, OrderViewReceiptPage } from 'tycoon-modules/ecommerce/receipt/order'
+import { OrderTitle, OrderItemPrice, OrderImage, OrderCard, OrderViewReceiptPage } from '@tycoonsystems/tycoon-modules/ecommerce/receipt/order'
 
 const Module = props => {
     

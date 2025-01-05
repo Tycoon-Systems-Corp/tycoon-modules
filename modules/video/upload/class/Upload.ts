@@ -1,6 +1,6 @@
-import { apiReq } from 'tycoon-modules/utility/api'
+import { apiReq } from '@tycoonsystems/tycoon-modules/utility/api'
 import { v4 as uuidv4 } from 'uuid'
-import { setNestedProperty } from 'tycoon-modules/util'
+import { setNestedProperty } from '@tycoonsystems/tycoon-modules/util'
 
 /**
  * Creates a video or handles existing

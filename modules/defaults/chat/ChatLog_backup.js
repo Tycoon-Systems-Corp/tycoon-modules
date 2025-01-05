@@ -1,8 +1,8 @@
 import React from 'react'
-import ChatStyles from 'tycoon-modules/streaming/chat/Chat.module.scss'
+import ChatStyles from '@tycoonsystems/tycoon-modules/streaming/chat/Chat.module.scss'
 import Reply from '@mui/icons-material/Reply'
 import ArrowUpward from '@mui/icons-material/ArrowUpward'
-import { resolveImage } from 'tycoon-modules/utility/utility/image'
+import { resolveImage } from '@tycoonsystems/tycoon-modules/utility/utility/image'
 
 const Module = props => {
     const { chatLog, scrollChatRef, scrollChatInnerRef, mobileStyleConfigs, handleSetUserDisplay, highlightedChat, handleGoToPost, handleReplyTo, replyOff } = props

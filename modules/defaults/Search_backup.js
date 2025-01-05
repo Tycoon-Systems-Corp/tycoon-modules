@@ -2,7 +2,7 @@ import React from 'react'
 import { v4 as uuidv4 } from 'uuid'
 import { useRouter } from 'next/router'
 import Tooltip from '@mui/material/Tooltip'
-import menuStyle from 'tycoon-modules/menu/Menu.module.scss'
+import menuStyle from '@tycoonsystems/tycoon-modules/menu/Menu.module.scss'
 import Close from '@mui/icons-material/Close'
 
 const Module = props => {

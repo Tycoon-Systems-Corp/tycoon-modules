@@ -1,10 +1,10 @@
 import React from 'react'
-import ChatStyles from 'tycoon-modules/streaming/chat/Chat.module.scss'
-import WatchPageStyles from 'tycoon-modules/streaming/watch/WatchPage.module.scss'
-import MessagingStyles from 'tycoon-modules/social/messaging/Messaging.module.scss'
+import ChatStyles from '@tycoonsystems/tycoon-modules/streaming/chat/Chat.module.scss'
+import WatchPageStyles from '@tycoonsystems/tycoon-modules/streaming/watch/WatchPage.module.scss'
+import MessagingStyles from '@tycoonsystems/tycoon-modules/social/messaging/Messaging.module.scss'
 import ChatLog from './ChatLog'
-import { DonateBar } from 'tycoon-modules/streaming/chat'
-import { RecentChatTimeout, ReplyTo, ReplyToInfo, ModChatTools } from 'tycoon-modules/streaming/chat/parts'
+import { DonateBar } from '@tycoonsystems/tycoon-modules/streaming/chat'
+import { RecentChatTimeout, ReplyTo, ReplyToInfo, ModChatTools } from '@tycoonsystems/tycoon-modules/streaming/chat/parts'
 import TextareaAutosize from 'react-textarea-autosize'
 
 const Module = props => {

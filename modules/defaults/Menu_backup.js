@@ -1,8 +1,8 @@
 import React from 'react'
-import SubMenu from 'tycoon-modules/menu/SubMenu.js'
-import menuStyle from 'tycoon-modules/menu/Menu.module.scss'
+import SubMenu from '@tycoonsystems/tycoon-modules/menu/SubMenu.js'
+import menuStyle from '@tycoonsystems/tycoon-modules/menu/Menu.module.scss'
 import Search from './Search'
-import MessagingInternal from 'tycoon-modules/social/messaging/MessagingInternal'
+import MessagingInternal from '@tycoonsystems/tycoon-modules/social/messaging/MessagingInternal'
 
 const Module = props => {
     return (

@@ -1,6 +1,22 @@
 # Start developing your Video Platform
 npm init @tycoonsystems/tycoon-modules
 
+# Enterprise TV Platform
+This is a library for an enterprise TV platform. You can spin up a platform similar to Netflix, YouTube or Mubi using these modules. Just a few functionalities that are included are:
+
+* Controllers for using our RTMP livestreaming services
+* User onboarding
+* Query param handling for pages like profile, watch, product, etc
+* Live chat 
+* Forums
+* Recommendation search
+* Comments
+* Paywalling, e-commerce and cart
+* Upload pipelines
+
+To start email us at:
+admin@tycoon.systems
+
 # Documentation
 www.tycoon.systems/documentation
 

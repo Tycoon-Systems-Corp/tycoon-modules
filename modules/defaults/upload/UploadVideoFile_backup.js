@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from 'tycoon-modules/video/upload/upload.module.scss'
+import styles from '@tycoonsystems/tycoon-modules/video/upload/upload.module.scss'
 
 
 const Module = props => {

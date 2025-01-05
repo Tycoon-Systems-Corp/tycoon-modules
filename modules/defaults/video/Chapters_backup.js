@@ -1,6 +1,6 @@
 import React from 'react'
-import { secondsToHMSString } from 'tycoon-modules/utility/utility/date'
-import WatchPageStyles from 'tycoon-modules/streaming/watch/WatchPage.module.scss'
+import { secondsToHMSString } from '@tycoonsystems/tycoon-modules/utility/utility/date'
+import WatchPageStyles from '@tycoonsystems/tycoon-modules/streaming/watch/WatchPage.module.scss'
 
 
 /**

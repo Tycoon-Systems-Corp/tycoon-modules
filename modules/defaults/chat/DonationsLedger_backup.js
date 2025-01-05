@@ -1,5 +1,5 @@
 import React from 'react'
-import ChatStyles from 'tycoon-modules/streaming/chat/Chat.module.scss'
+import ChatStyles from '@tycoonsystems/tycoon-modules/streaming/chat/Chat.module.scss'
 
 const Module = props => {
     const donationsLedger = props.donationsLedger

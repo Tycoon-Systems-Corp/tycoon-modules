@@ -1,5 +1,5 @@
 import React from 'react'
-import WatchPageStyles from 'tycoon-modules/streaming/watch/WatchPage.module.scss'
+import WatchPageStyles from '@tycoonsystems/tycoon-modules/streaming/watch/WatchPage.module.scss'
 
 
 const Module = props => {

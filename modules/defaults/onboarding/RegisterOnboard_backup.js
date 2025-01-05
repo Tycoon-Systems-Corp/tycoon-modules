@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { EmailOnboardInput, UsernameOnboardInput, GoogleSignIn, RegisterButton, PasswordOnboardInput } from 'tycoon-modules/onboarding/signin/parts'
+import { EmailOnboardInput, UsernameOnboardInput, GoogleSignIn, RegisterButton, PasswordOnboardInput } from '@tycoonsystems/tycoon-modules/onboarding/signin/parts'
 
 const Module = props => {
     const { hideSignIn, pageError, googleSignInRendered, handleSetLoadRegister, handleClearPageError, handleClearUsername, availableUsername } = props

@@ -1,16 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
 import Tooltip from '@mui/material/Tooltip'
-import { resolveStyles, westernMoneyFormat } from 'tycoon-modules/utility/ecommerce'
-import { getFormattedDate } from 'tycoon-modules/util'
+import { resolveStyles, westernMoneyFormat } from '@tycoonsystems/tycoon-modules/utility/ecommerce'
+import { getFormattedDate } from '@tycoonsystems/tycoon-modules/util'
 import AllInclusive from '@mui/icons-material/AllInclusive'
 import ConfirmationNumber from '@mui/icons-material/ConfirmationNumber'
 import Inventory from '@mui/icons-material/Inventory'
 import Stadium from '@mui/icons-material/Stadium'
-import { Lineup, ProductImageManager } from 'tycoon-modules/ecommerce/product'
-import PIMStyles from 'tycoon-modules/ecommerce/product/ProductImageManager.module.scss'
+import { Lineup, ProductImageManager } from '@tycoonsystems/tycoon-modules/ecommerce/product'
+import PIMStyles from '@tycoonsystems/tycoon-modules/ecommerce/product/ProductImageManager.module.scss'
 import TextareaAutosize from 'react-textarea-autosize'
-import { selectThisText } from 'tycoon-modules/utility/utility/event'
+import { selectThisText } from '@tycoonsystems/tycoon-modules/utility/utility/event'
 
 const Module = props => {
     const { isEditing, useEditingOptions, validStyleObject, validOptionObject, isAdmin, handleEdit, currentPrice, handleFireGlobalEvent, selectedStyle, selectedOption, currentOption, handleUpdateProductDescription, descriptionInputRef, isSettingCurrency, handleSetIsSettingCurrency, currentCurrencyRef, quantityInput, setCurrentQuantity, setInfinity, setCurrentStyleName, optionInput, setCurrentOptionName, changeCurrentOption, styleSelect, optionSelect, isTicketRef, isLivestreamRef, warning, setWarning, setSelectedStyleHandler, handleChangeCurrentCurrency, passTempImages, editingOptionsMeta, setOptionsMetaData, appendFormData, currentLineupEditing, setCurrentLineupEditing, setCurrentName, nameRef, currentDefinePriceCurrency, setCurrentPrice, styleInput, setCombinedFeed, setEditing, handleCancelProduct, handlePublishProduct, onProductTypeChange, addStyle, addOption } = props
