@@ -42,7 +42,9 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^14.1.0",
-    "@types/eslint": "^9.6.1"
+    "@types/eslint": "^9.6.1",
+    "@types/prop-types": "^15.7.14",
+    "@types/scheduler": "^0.23.0"
   },
   "description": "www.tv.tycoon.systems/documentation",
   "main": "app.config.js",

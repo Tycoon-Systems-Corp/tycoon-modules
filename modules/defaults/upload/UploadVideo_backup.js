@@ -4,12 +4,19 @@ import WatchPageStyles from '@tycoonsystems/tycoon-modules/streaming/watch/Watch
 import { SignIn, Username } from '@tycoonsystems/tycoon-modules/onboarding/signin'
 import { Player } from '@tycoonsystems/tycoon-modules/streaming/watch'
 import UploadVideoFileInternal from '@tycoonsystems/tycoon-modules/video/upload/UploadVideoFileInternal'
-import VideoReel from '/layout/upload/VideoReel'
 import { HMSDurationToSeconds, secondsToHMSString } from '@tycoonsystems/tycoon-modules/utility/utility/date'
 import { resolveNestedProperty } from '@tycoonsystems/tycoon-modules/util'
 import TextareaAutosize from 'react-textarea-autosize'
 import Close from '@mui/icons-material/Close'
 
+import dynamic from 'next/dynamic'
+
+const VideoReel = dynamic(() => import('/layout/upload/VideoReel'), {
+  ssr: false, // Optional: Disable server-side rendering for the Help component
+  loading: () => <p></p>, // Optional: Provide a fallback UI
+  // You can also add an `onError` callback to handle errors:
+  // onError: (error) => console.error('Failed to load Help component:', error),
+})
 
 const Module = props => {
     const { ASSOCIATE_RECORDS, ASSOCIATION_METHODS, handleClearError, setPageError, pageError, setProcessing, processing, handlingMeta, setHandlingMetaProxy, setVideoDocumentProxy, fetchBusy, useVideos, videosContainerRef, loadVideo, status, componentId, initialized, videoDocumentRasterized, clipStartRef, clipDescriptionRef, currentAssociation, currentAssociationMethod, associateRecords, setAssociateRecords, videoDocument, handlePublish, handleStartUpload, setVideoDocumentRasterized, setCurrentAssociationMethod, setCurrentAssociation, currentAssociationLimit, getAssociateAttributes, loadRecord, handleDisposePlayer } = props

@@ -2,7 +2,7 @@
 
 import React from 'react'
 import '../styles/globals.scss' // Place style import declarations in /styles/styles.scss and actual style css files under /styles/appstyles/
-import { Internal } from 'tycoon-modules/internal/'
+import Internal from "@tycoonsystems/tycoon-modules/internal/internal.js"
 
 
 function MyApp({ Component, pageProps }) {
